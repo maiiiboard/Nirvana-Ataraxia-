@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirvana Ataraxia | Information</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f8;
+            color: #29263d;
+        }
+
+        nav {
+            background: #191526;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        nav h2 {
+            font-size: 19px;
+            letter-spacing: 1px;
+        }
+
+        nav ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            list-style: none;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        nav a:hover, nav a.active {
+            color: #c6a8ff;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px 30px;
+        }
+
+        header h1 {
+            color: #49336e;
+            font-size: clamp(28px, 5vw, 38px);
+            margin-bottom: 15px;
+        }
+
+        header p {
+            line-height: 1.7;
+        }
+
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .person-card {
+            background: white;
+            padding: 12px;
+            border-radius: 12px;
+            box-shadow: 0 4px 14px #00000012;
+            text-align: center;
+        }
+
+        .person-card img {
+            display: block;
+            width: 100%;
+            height: 240px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .person-card h3 {
+            color: #49336e;
+            margin: 14px 0 8px;
+        }
+
+        .person-card p {
+            font-size: 14px;
+            line-height: 1.6;
+            padding-bottom: 8px;
+        }
+
+        footer {
+            margin-top: 35px;
+            background: #191526;
+            color: white;
+            text-align: center;
+            padding: 22px 15px;
+            font-size: 13px;
+        }
+
+        @media (max-width: 480px) {
+            nav {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav ul {
+                justify-content: center;
+                gap: 15px;
+            }
+
+            .image-gallery {
+                gap: 12px;
+                padding: 12px;
+            }
+
+            .person-card {
+                padding: 8px;
+            }
+
+            .person-card img {
+                height: 160px;
+            }
+
+            .person-card p {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>NIRVANA ATARAXIA</h2>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="information.html" class="active">Information</a></li>
+            <li><a href="album.html">Album</a></li>
+            <li><a href="videos.html">Videos</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Meet Our Players</h1>
+        <p>
+            Get to know the members of Nirvana Ataraxia.
+            Every player has a story and a place in our team.
+        </p>
+    </header>
+
+    <main class="image-gallery">
+
+        <article class="person-card">
+            <img src="images/echo.jpg" alt="Echo">
+            <h3>Echo</h3>
+            <p>A Captain of Nirvana Ataraxia.</p>
+        </article>
+
+        <article class="person-card">
+            <img src="images/reo.jpg" alt="Reo">
+            <h3>Reo</h3>
+            <p>A member of Nirvana Ataraxia.</p>
+        </article>
+
+        <article class="person-card">
+            <img src="images/ceraia.jpg" alt="Ceraia Faust">
+            <h3>Ceraia Faust</h3>
+            <p>A member of Nirvana Ataraxia.</p>
+        </article>
+
+        <article class="person-card">
+            <img src="images/ronald.jpg" alt="Ronald Duck">
+            <h3>Ronald Duck</h3>
+            <p>A member of Nirvana Ataraxia.</p>
+        </article>
+
+        <article class="person-card">
+            <img src="images/mai.jpg" alt="Mai">
+            <h3>Mai</h3>
+            <p>A member of Nirvana Ataraxia.</p>
+        </article>
+
+        <article class="person-card">
+            <img src="images/rhi.jpg" alt="Rhi">
+            <h3>Rhi</h3>
+            <p>A member of Nirvana Ataraxia.</p>
+        </article>
+
+        <article class="person-card">
+            <img src="images/heaven.jpg" alt="Heaven">
+            <h3>Heaven</h3>
+            <p>A member of Nirvana Ataraxia.</p>
+        </article>
+
+        <article class="person-card">
+            <img src="images/takahashi.jpg" alt="Takahashi">
+            <h3>Takahashi</h3>
+            <p>A member of Nirvana Ataraxia.</p>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Nirvana Ataraxia. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

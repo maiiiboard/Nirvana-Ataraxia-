@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirvana Ataraxia | Home</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f8;
+            color: #29263d;
+        }
+
+        nav {
+            background: #191526;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        nav h2 {
+            font-size: 19px;
+            letter-spacing: 1px;
+        }
+
+        nav ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            list-style: none;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        nav a:hover, nav a.active {
+            color: #c6a8ff;
+        }
+
+        .hero {
+            min-height: 85vh;
+            padding: 60px 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            background: linear-gradient(
+                135deg, #191526, #49336e, #7655a8
+            );
+        }
+
+        .welcome {
+            color: #d8c4ff;
+            letter-spacing: 4px;
+            font-size: 13px;
+            margin-bottom: 20px;
+        }
+
+        .hero h1 {
+            font-size: clamp(32px, 6vw, 52px);
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            max-width: 650px;
+            line-height: 1.9;
+            font-size: 16px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin: 15px 7px 0;
+            padding: 13px 24px;
+            background: #d8c4ff;
+            color: #191526;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background: white;
+        }
+
+        .about {
+            padding: 55px 20px;
+            text-align: center;
+        }
+
+        .about h2 {
+            color: #49336e;
+            margin-bottom: 15px;
+        }
+
+        .about p {
+            max-width: 650px;
+            margin: auto;
+            line-height: 1.8;
+        }
+
+        footer {
+            background: #191526;
+            color: white;
+            text-align: center;
+            padding: 22px 15px;
+            font-size: 13px;
+        }
+
+        @media (max-width: 480px) {
+            nav {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            nav ul {
+                justify-content: center;
+                gap: 15px;
+            }
+
+            .welcome {
+                letter-spacing: 2px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <h2>NIRVANA ATARAXIA</h2>
+
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="information.html">Information</a></li>
+            <li><a href="album.html">Album</a></li>
+            <li><a href="videos.html">Videos</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="welcome">WELCOME TO OUR WORLD</div>
+
+        <h1>Nirvana Ataraxia</h1>
+
+        <p>
+            Welcome to Nirvana Ataraxia!
+            This is a place where we introduce our players,
+            share our memories, and celebrate the moments
+            that bring us together. Explore our world and
+            get to know the people behind the name.
+        </p>
+
+        <div>
+            <a href="information.html" class="btn">
+                Meet Our Players
+            </a>
+
+            <a href="album.html" class="btn">
+                Explore Our Album
+            </a>
+            
+            <a href="videos.html" class="btn"> Watch Our Videos</a>
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About Our Website</h2>
+
+        <p>
+            Nirvana Ataraxia is more than just a name.
+            This website is our little space to introduce
+            our members, collect our favorite pictures,
+            and preserve the memories we create together.
+            Take your time exploring each page!
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Nirvana Ataraxia. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

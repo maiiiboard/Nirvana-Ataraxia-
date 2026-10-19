@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nirvana Ataraxia | Videos</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #160b2b, #321052, #170d30);
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 28px 15px;
+      background: #24103d;
+      border-bottom: 2px solid #b66cff;
+    }
+
+    header h1 {
+      color: #d9a5ff;
+      margin-top: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 15px;
+      background: #1b0d2c;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 13px;
+      border-radius: 8px;
+      background: #49236b;
+    }
+
+    nav a:hover {
+      background: #8546b5;
+    }
+
+    main {
+      width: min(100% - 30px, 1000px);
+      margin: 30px auto;
+    }
+
+    .intro {
+      text-align: center;
+      line-height: 1.7;
+      margin-bottom: 30px;
+    }
+
+    .intro h2 {
+      color: #d9a5ff;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 22px;
+    }
+
+    .video-card {
+      min-width: 0;
+      padding: 15px;
+      background: #36194e;
+      border: 1px solid #75419b;
+      border-radius: 14px;
+    }
+
+    .video-card h3 {
+      color: #e1baff;
+      margin-top: 0;
+    }
+
+    .video-card iframe {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: 0;
+      border-radius: 9px;
+      background: #10091a;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 22px 12px;
+      text-align: center;
+      background: #160b25;
+      color: #d9b8f4;
+    }
+
+    @media (max-width: 650px) {
+      .video-grid {
+        grid-template-columns: 1fr;
+      }
+
+      main {
+        width: calc(100% - 24px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Nirvana Ataraxia</h1>
+    <p>Our videos, gameplay, funny moments, and memories</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="information.html">Information</a>
+    <a href="album.html">Album</a>
+    <a href="videos.html">Videos</a>
+  </nav>
+
+  <main>
+    <section class="intro">
+      <h2>Our Video Collection</h2>
+      <p>
+        Welcome to our video collection! Relive our first video,
+        gameplay highlights, funny moments, and unforgettable memories
+        together as Nirvana Ataraxia.
+      </p>
+    </section>
+
+    <section class="video-grid">
+
+      <article class="video-card">
+        <h3>1. Our First Video</h3>
+        <iframe
+          src="https://player.cloudinary.com/embed/?cloud_name=afbwolq9&amp;public_id=VID_20261020_004505_427"
+          title="Our First Video"
+          allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </article>
+
+      <article class="video-card">
+        <h3>2. Gameplay Highlights</h3>
+        <iframe
+          src="https://player.cloudinary.com/embed/?cloud_name=afbwolq9&amp;public_id=VID_20261020_004459_149"
+          title="Gameplay Highlights"
+          allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </article>
+
+      <article class="video-card">
+        <h3>3. Funny Moments</h3>
+        <iframe
+          src="https://player.cloudinary.com/embed/?cloud_name=afbwolq9&amp;public_id=VID_20261020_005844_579_20261020_010028"
+          title="Funny Moments"
+          allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </article>
+
+      <article class="video-card">
+        <h3>4. Our Memories</h3>
+        <iframe
+          src="https://player.cloudinary.com/embed/?cloud_name=afbwolq9&amp;public_id=VID_20261020_004502_550_20261020_005404"
+          title="Our Memories"
+          allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Nirvana Ataraxia. All rights reserved.</p>
+    <p>Made with love by our community 💜</p>
+  </footer>
+
+</body>
+</html>
